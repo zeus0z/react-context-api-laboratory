@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { LotrContextProvider } from './context/LotrContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <LotrContextProvider>
+      <App />
+    </LotrContextProvider>
   </React.StrictMode>
 );
 
