@@ -1,0 +1,24 @@
+nav{
+    width: 100%;
+    background-color: brown;
+    
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+    
+
+}
+
+a {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color:inherit;
+    transition: 200ms;
+    text-shadow: 2px 2px 3px  black;
+}
+
+a:hover{
+    color: rgba(245, 222, 179, 0.6);
+}
